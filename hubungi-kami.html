@@ -129,11 +129,14 @@
           <h2 class="text-4xl"> Ikut serta peduli terhadap lingkungan sekitar serta membantu <br> kita di Daoer Zenee
             dengan memberikan donasi
           </h2> 
-          <button onclick="togglePopup()"
-            class="m-12 bg-lime-500 text-black font-bold py-3 px-6 rounded-md shadow-lg hover:bg-lime-700 transition duration-300"
-            style="width: 58%;">DONATE
-            <!-- width : 51rem -->
-          </button>
+            <button onclick="togglePopup()"
+                class="m-12 group relative inline-block h-12 bg-blueGray-900 text-black font-bold py-3 px-6 rounded-md shadow-lg" style="width: 58%;">
+                <div class="absolute top-0 left-0 transform -translate-y-1 -translate-x-1 w-full h-full group-hover:translate-y-0 group-hover:translate-x-0 transition duration-300">
+                  <div class="flex h-full w-full items-center justify-center bg-lime-500 border-2 border-black rounded-md">
+                    <span class="text-base font-black text-black">DONATE</span>
+                  </div>
+                </div>
+            </button>
           <h3 class="text-4xl text-red-600">Kami hanya menerima donasi dalam bentuk <b>natura</b>.</h3>
         </div>
       </div>

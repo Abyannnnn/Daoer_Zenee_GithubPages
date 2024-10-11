@@ -161,14 +161,23 @@
               <p class="text-3xl leading-[1.6] text-[#19392A] my-8 text-justify">Komunitas kami memberdayakan umat
                 KLMTD (kaum kecil, lemah, miskin, telantar, disabilitas) dengan tujuan untuk membuat produk daur ulang.
                 Mereka membawa semangat partisipasi dengan langkah-langkah kecil yang mencintai dan menyelamatkan bumi
-                melalui prinsip-prinsip 'reuse-reduce-recycle-renew'.</p> <button onclick="togglePopup()"
-                class="bg-lime-500 text-black font-bold py-3 px-6 rounded-md shadow-lg hover:bg-lime-700 transition duration-300">DONATE</button>
+                melalui prinsip-prinsip 'reuse-reduce-recycle-renew'.</p> 
+                <button onclick="togglePopup()"
+                class="group relative inline-block h-12 w-full bg-blueGray-900 text-black font-bold py-3 px-6 rounded-md shadow-lg">
+                <div class="absolute top-0 left-0 transform -translate-y-1 -translate-x-1 w-full h-full group-hover:translate-y-0 group-hover:translate-x-0 transition duration-300">
+                  <div class="flex h-full w-full items-center justify-center bg-lime-500 border-2 border-black rounded-md">
+                    <span class="text-base font-black text-black">DONATE</span>
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
         </div>
     </section>
     <!-- ----- Section 1 End ----- -->
 
+    <!-- <button onclick="togglePopup()"
+                class="bg-lime-500 text-black font-bold py-3 px-6 rounded-md shadow-lg hover:bg-lime-700 transition duration-300">DONATE</button> -->
 
     <!-- ----- Section 2 ----- -->
     <section class="section-padding2">
@@ -358,8 +367,6 @@
     </section>
     <!-- ----- Section 4 End ----- -->
 
-
-    <!-- flex h-20 py-6 px-6 items-center bg-white relative justify-between shadow-xl -->
     <!-- Footer -->
     <section class="overflow-hidden">
       <div class="px-16 pt-24">
